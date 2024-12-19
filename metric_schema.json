@@ -45,8 +45,8 @@
     },
     "interval": {
       "type": "integer",
-      "description": "Interval for the configuration"
+      "description": "Set the interval (in minutes) for the metric, i.e. the time between metric executions. Setting the interval also helps evidence collectors to determine their interval of collecting evidence. As a rule, they are the same."
     }
   },
-  "required": ["id", "description", "version", "comments", "pointers", "interval"]
+  "required": ["id", "description", "version", "comments", "pointers"]
 }
