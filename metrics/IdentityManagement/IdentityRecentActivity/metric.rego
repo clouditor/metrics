@@ -9,8 +9,8 @@ default applicable = false
 default compliant = false
 
 applicable {
-	# we are only interested in privileged users
-	identity.privileged
+        # we are only interested in active accounts, deactivated accounts are already inactive
+	identity.activated
 }
 
 compliant {
