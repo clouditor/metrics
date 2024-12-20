@@ -1,4 +1,4 @@
-TODO(all): Update metric rego file
+TODO(all): Update metric rego file like BootLoggingOutput? I think we do not need specific output folders. (anatheka)
 
 import data.clouditor.compare
 
