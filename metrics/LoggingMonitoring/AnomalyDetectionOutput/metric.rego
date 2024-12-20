@@ -1,7 +1,5 @@
 TODO(all): Update metric rego file
 
-package clouditor.metrics.anomaly_detection_output
-
 import data.clouditor.compare
 
 default applicable = false

@@ -1,5 +1,3 @@
-package clouditor.metrics.activity_logging_enabled
-
 import data.clouditor.compare
 
 default applicable = false

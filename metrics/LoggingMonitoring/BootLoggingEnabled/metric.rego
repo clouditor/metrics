@@ -1,5 +1,3 @@
-package clouditor.metrics.boot_logging_enabled
-
 import data.clouditor.compare
 import input.bootLogging as logging
 
