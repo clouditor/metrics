@@ -1,4 +1,4 @@
-package clouditor.metrics.identity_password_policy
+package clouditor.metrics.identity_password_policy_enabled
 
 import data.clouditor.compare
 import future.keywords.every
@@ -9,6 +9,6 @@ default applicable = false
 default compliant = false
 
 compliant {
-	# we are just assuming, that the standard policy looks good
+	# we are just assuming that the standard policy looks good
 	compare(data.operator, data.target_value, identity.disablePasswordPolicy)
 }
