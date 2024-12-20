@@ -1,0 +1,10 @@
+--- # Metadata
+- id: BootLoggingEnabled
+- description: This rule assesses whether an [Resource] has the [SecurityFeature, Auditing, Logging, BootLogging] property [p1:enabled] set correctly.
+- version: 1.0 
+- comments: Enabling resource boot logging captures detailed information about the boot process, helping to identify issues and troubleshoot startup problems. It provides insights into system performance and stability, ensuring a reliable and efficient resource operation.
+--- # Configuration data
+- interval: 24
+- p1:
+  - operator: ==
+  - targetValue: True
