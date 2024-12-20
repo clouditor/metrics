@@ -1,0 +1,10 @@
+--- # Metadata
+- id: OSLoggingOutput
+- description: This rule assesses whether an [Resource] has the [SecurityFeature, Auditing, Logging, OSLogging] property [p1:loggingService] set correctly.
+- version: 1.0 
+- comments: A resource should have OS logging output stored in a separate location to provide detailed records of operating system events, facilitating effective monitoring and troubleshooting. This output helps identify performance issues and security threats, ensuring a stable and secure operating environment.
+--- # Configuration data
+- interval: 24
+- p1:
+  - operator: >
+  - targetValue: 0
