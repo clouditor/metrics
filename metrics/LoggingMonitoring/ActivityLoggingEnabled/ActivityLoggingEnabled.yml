@@ -4,7 +4,6 @@
 - version: 1.0 
 - comments: Activity logging records actions taken on resources, capturing details about create, update, and delete operations. It provides an audit trail that helps in monitoring usage, troubleshooting issues, and ensuring compliance with policies across various systems and platforms. 
 --- # Configuration data
-- interval: 24
 - p1:
   - operator: ==
   - targetValue: True
