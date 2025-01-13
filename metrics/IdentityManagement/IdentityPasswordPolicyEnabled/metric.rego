@@ -1,7 +1,7 @@
-package clouditor.metrics.identity_password_policy_enabled
+package metrics.iam.identity_password_policy_enabled
 
-import data.clouditor.compare
-import future.keywords.every
+import data.compare
+import rego.v1
 import input as resource
 
 default applicable = false

@@ -1,7 +1,7 @@
-package clouditor.metrics.identity_recent_activity
+package metrics.iam.identity_recent_activity
 
-import data.clouditor.compare
-import future.keywords.every
+import data.compare
+import rego.v1
 import input as identity
 
 default applicable = false

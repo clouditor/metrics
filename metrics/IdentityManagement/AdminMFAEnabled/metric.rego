@@ -1,7 +1,7 @@
-package clouditor.metrics.admin_mfa_enabled
+package metrics.iam.admin_mfa_enabled
 
-import data.clouditor.compare
-import future.keywords.every
+import data.compare
+import rego.v1
 import input as identity
 
 default applicable = false

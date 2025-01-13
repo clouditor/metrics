@@ -1,6 +1,6 @@
-package clouditor.metrics.object_storage_public_access_disabled
+package metrics.iam.object_storage_public_access_disabled
 
-import data.clouditor.compare
+import data.compare
 import input as storage
 
 default compliant = false
