@@ -1,4 +1,7 @@
-import data.clouditor.compare
+package metrics.logging_monitoring.anomaly_detection_enabled
+
+import data.compare
+import rego.v1
 
 default applicable = false
 

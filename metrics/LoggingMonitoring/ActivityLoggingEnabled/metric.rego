@@ -1,4 +1,7 @@
-import data.clouditor.compare
+package metrics.logging_monitoring.activity_logging_enabled
+
+import data.compare
+import rego.v1
 
 default applicable = false
 

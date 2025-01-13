@@ -1,5 +1,7 @@
-import data.clouditor.compare
+package metrics.logging_monitoring.os_logging_retention
 
+import data.compare
+import rego.v1
 import input.osLogging as logging
 
 default applicable = false

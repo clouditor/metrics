@@ -1,6 +1,9 @@
-TODO(all): Update metric rego file like BootLoggingOutput? I think we do not need specific output folders. (anatheka)
+package metrics.logging_monitoring.anomaly_detection_output
 
-import data.clouditor.compare
+import data.compare
+import rego.v1
+
+TODO(all): Update metric rego file like BootLoggingOutput? I think we do not need specific output folders. (anatheka)
 
 default applicable = false
 

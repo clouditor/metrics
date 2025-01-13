@@ -1,4 +1,7 @@
-import data.clouditor.compare
+package metrics.logging_monitoring.boot_logging_enabled
+
+import data.compare
+import rego.v1
 import input.bootLogging as logging
 
 default applicable = false
