@@ -1,6 +1,4 @@
 {
-    "operator": "isIn",
-    "target_value": [
-      "?"
-    ]
+  "operator" : ">",
+  "target_value" : 0
 }
