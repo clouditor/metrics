@@ -1,8 +1,8 @@
 --- # Metadata
-- id: ApprovedCommitAuthor
-- description: This rule assesses whether an [CodeRepository] has its [p1:approvedCommitAuthor] property set correctly.
+- id: EnforceApprovedCommitAuthor
+- description: This rule assesses whether an [CodeRepository] has its [p1:enforceApprovedCommitAuthor] property set correctly.
 - version: 1.0 
-- comments: Approved commit author verifies that code modifications are made by authorized developers whose changes have been validated. This practice enhances accountability and traceability, ensuring that only qualified contributors influence the codebase.
+- comments: Enforce approved commit author verifies that code modifications are made by authorized developers whose changes have been validated. This practice enhances accountability and traceability, ensuring that only qualified contributors influence the codebase.
 --- # Configuration data
 - p1:
   - operator: ==
