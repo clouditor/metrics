@@ -1,4 +1,4 @@
-package metrics.dlc.approved_commit_author
+package metrics.dlc.enforce_approved_commit_author
 
 import data.compare
 import rego.v1
@@ -14,5 +14,5 @@ applicable {
 }
 
 compliant {
-	compare(data.operator, data.target_value, repo.approvedCommitAuthor)
+	compare(data.operator, data.target_value, repo.enforceApprovedCommitAuthor)
 }
