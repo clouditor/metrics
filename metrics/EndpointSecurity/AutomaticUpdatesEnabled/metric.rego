@@ -1,16 +1,16 @@
 package metrics.automatic_updates_enabled
 
 import data.compare
-import input.automaticUpdates as am
+import input.automaticUpdates as au
 
 default applicable = false
 
 default compliant = false
 
 applicable {
-	am
+	au
 }
 
 compliant {
-	compare(data.operator, data.target_value, am.enabled)
+	compare(data.operator, data.target_value, au.enabled)
 }
