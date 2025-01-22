@@ -1,6 +1,6 @@
 --- # Metadata
 - id: AutomaticUpdatesEnabled
-- description: This rule assesses whether any [Resource] that offers the property [AutomaticUpdates], has [p1:enabled] configured correctly.
+- description: This rule assesses whether any [VirtualMachine] that offers the property [AutomaticUpdates], has [p1:enabled] configured correctly.
 - version: 1.0 
 - comments: Resources like virtual machines often offer a simple configuration that automatically installs updates, e.g. critical security updates.
 --- # Configuration data
