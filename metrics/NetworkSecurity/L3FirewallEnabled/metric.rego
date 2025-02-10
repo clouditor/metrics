@@ -2,7 +2,7 @@ package metrics.network_security.l_3_firewall_enabled
 
 import data.compare
 import rego.v1
-import input.accessRestriction.firewall.l3Firewall as l3
+import input.accessRestriction.l3Firewall as l3
 
 default applicable = false
 
