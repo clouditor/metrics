@@ -1,0 +1,17 @@
+{
+    "operator" : ">=",
+    "target_value" : [
+      {
+        "runtimeLanguage": "Java",
+        "runtimeVersion": 21
+      },
+      {
+        "runtimeLanguage": "Python",
+        "runtimeVersion": 3.12
+      },
+      {
+        "runtimeLanguage": "PHP",
+        "runtimeVersion": 8.3
+      }
+    ]
+  }
