@@ -14,7 +14,6 @@ applicable if {
 	input.type[_] == "NetworkInterface"
 }
 
-# TODO(all): Maybe change restricted ports to array of strings. See comment in Ontology.
 compliant if {
-	compare(data.operator, data.target_value, restrictedPorts)
+	compare(data.operator, data.target_value, l3.restrictedPorts)
 }
